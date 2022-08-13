@@ -40,6 +40,7 @@
             {% for menu_item in site.menu_items %}
               <li class="downloads">
                 <a href="{{ menu_item.url }}">{{ menu_item.label }}</a>
+                <!-- {{ menu_item.url }} -->
                 <!-- {{ menu_item.content | markdownify }} -->
               </li>
             {% endfor %}
