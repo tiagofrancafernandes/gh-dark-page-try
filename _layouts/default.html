@@ -37,6 +37,16 @@
               <li class="title">DOWNLOADS</li>
             {% endif %}
 
+            {% if site.show_actions %}
+              <li class="downloads">
+                <a
+                  href="{{ site.github.tar_url }}/actions"
+                  target="_blank">
+                  Actions
+                </a>
+              </li>
+            {% endif %}
+
             {% for menu_item in site.menu_items %}
               <li class="downloads">
                 <a href="{{ menu_item.url }}">{{ menu_item.label }}</a>

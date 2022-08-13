@@ -16,6 +16,7 @@ github:
   repository_url: https://github.com/tiagofrancafernandes/gh-dark-page-try
 
 show_downloads: false
+show_actions: true
 show_header: true
 remote_theme: "dracula/gh-pages"
 
