@@ -51,7 +51,11 @@
                   target="_blank"
                   {% endif %}
                   >
-                  {{ menu_item.content | markdownify }}
+                  {% if menu_item.is_markdown  %}
+                    {{ menu_item.label | markdownify }}
+                  {% else %}
+                    {{ menu_item.label}}
+                  {% endif %}
                 </a>
                 <!-- {{ menu_item.aditional_content }} -->
               </li>
