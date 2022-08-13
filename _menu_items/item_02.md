@@ -1,6 +1,6 @@
 ---
 class: my-class downloads
 target_link: 'https://github.com/tiagofrancafernandes/gh-dark-page-try'
-target_blank: true
+target_blank: false
 ---
-Item 01 content
+Item 02 content
