@@ -6,5 +6,6 @@ class: my-class downloads
 info01: "https://github.com/tiagofrancafernandes/gh-dark-page-try"
 info02: 'https://github.com/tiagofrancafernandes/gh-dark-page-try'
 info03: '#012'
+target_link: 'https://github.com/tiagofrancafernandes/gh-dark-page-try'
 ---
 Some content *five years*.
