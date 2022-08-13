@@ -48,9 +48,12 @@
             {% endif %}
 
             {% for menu_item in site.menu_items %}
-              <li class="downloads">
+              <li class="{{ menu_item.class }}">
                 <a href="{{ menu_item.url }}">{{ menu_item.label }}</a>
                 <!-- {{ menu_item.url }} -->
+                <!-- {{ menu_item.info01 }} -->
+                <!-- {{ menu_item.info02 }} -->
+                <!-- {{ menu_item.info03 }} -->
                 <!-- {{ menu_item.content | markdownify }} -->
               </li>
             {% endfor %}
