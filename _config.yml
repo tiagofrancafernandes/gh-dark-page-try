@@ -3,7 +3,7 @@ title: Dracula GitHub Pages
 tagline: The renowned dark theme for ...
 description: The renowned dark theme for ...
 url: https://tiagofrancafernandes.github.io/gh-dark-page-try
-twitter: https://twitter.com/zenorocha
+twitter: https://twitter.com/tiagoFOficial
 logo: https://draculatheme.com/static/icons/pack-1/045-dracula.svg
 
 # Google Analytics ID
@@ -11,13 +11,21 @@ google_analytics:
 
 # GitHub Values
 github:
-  owner_name: Dracula
-  owner_url: https://github.com/dracula
-  repository_url: https://github.com/dracula/gh-pages
+  owner_name: tiagofrancafernandes
+  owner_url: https://github.com/tiagofrancafernandes
+  repository_url: https://github.com/tiagofrancafernandes/gh-dark-page-try
 
-show_downloads: true
+show_downloads: false
 show_header: true
 remote_theme: "dracula/gh-pages"
+
+menu_items:
+  - label:
+
+
+collections:
+  menu_items:
+    output: true
 
 sass:
     style: compressed
